@@ -1,0 +1,412 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E303F27B1AA34F00007F3217 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E303F2611AA34F00007F3217 /* AppDelegate.m */; };
+		E303F27C1AA34F00007F3217 /* NSDate+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = E303F2641AA34F00007F3217 /* NSDate+Additions.m */; };
+		E303F27D1AA34F00007F3217 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E303F2671AA34F00007F3217 /* ViewController.m */; };
+		E303F27E1AA34F00007F3217 /* MiBandBattery.m in Sources */ = {isa = PBXBuildFile; fileRef = E303F26A1AA34F00007F3217 /* MiBandBattery.m */; };
+		E303F2811AA34F00007F3217 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E303F26F1AA34F00007F3217 /* main.m */; };
+		E303F2821AA34F00007F3217 /* BluetoothCommunicator.m in Sources */ = {isa = PBXBuildFile; fileRef = E303F2731AA34F00007F3217 /* BluetoothCommunicator.m */; };
+		E303F2831AA34F00007F3217 /* MiBandCommunicator.m in Sources */ = {isa = PBXBuildFile; fileRef = E303F2751AA34F00007F3217 /* MiBandCommunicator.m */; };
+		E303F2881AA3514B007F3217 /* InitialScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E303F2871AA3514B007F3217 /* InitialScreenViewController.m */; };
+		E303F28E1AA35512007F3217 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E303F26C1AA34F00007F3217 /* Images.xcassets */; };
+		E303F28F1AA3682C007F3217 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E303F2771AA34F00007F3217 /* LaunchScreen.xib */; };
+		E303F2901AA3682C007F3217 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E303F2791AA34F00007F3217 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E303F2601AA34F00007F3217 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E303F2611AA34F00007F3217 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E303F2631AA34F00007F3217 /* NSDate+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Additions.h"; sourceTree = "<group>"; };
+		E303F2641AA34F00007F3217 /* NSDate+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Additions.m"; sourceTree = "<group>"; };
+		E303F2661AA34F00007F3217 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E303F2671AA34F00007F3217 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E303F2691AA34F00007F3217 /* MiBandBattery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MiBandBattery.h; sourceTree = "<group>"; };
+		E303F26A1AA34F00007F3217 /* MiBandBattery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MiBandBattery.m; sourceTree = "<group>"; };
+		E303F26C1AA34F00007F3217 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E303F26E1AA34F00007F3217 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E303F26F1AA34F00007F3217 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E303F2721AA34F00007F3217 /* BluetoothCommunicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BluetoothCommunicator.h; sourceTree = "<group>"; };
+		E303F2731AA34F00007F3217 /* BluetoothCommunicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BluetoothCommunicator.m; sourceTree = "<group>"; };
+		E303F2741AA34F00007F3217 /* MiBandCommunicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MiBandCommunicator.h; sourceTree = "<group>"; };
+		E303F2751AA34F00007F3217 /* MiBandCommunicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MiBandCommunicator.m; sourceTree = "<group>"; };
+		E303F2781AA34F00007F3217 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		E303F27A1AA34F00007F3217 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E303F2861AA3514B007F3217 /* InitialScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InitialScreenViewController.h; sourceTree = "<group>"; };
+		E303F2871AA3514B007F3217 /* InitialScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InitialScreenViewController.m; sourceTree = "<group>"; };
+		E38EABE61A94E240006855FC /* MiLift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MiLift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E38EABE31A94E240006855FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E303F25F1AA34F00007F3217 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				E303F2601AA34F00007F3217 /* AppDelegate.h */,
+				E303F2611AA34F00007F3217 /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		E303F2621AA34F00007F3217 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				E303F2631AA34F00007F3217 /* NSDate+Additions.h */,
+				E303F2641AA34F00007F3217 /* NSDate+Additions.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		E303F2651AA34F00007F3217 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E303F2661AA34F00007F3217 /* ViewController.h */,
+				E303F2671AA34F00007F3217 /* ViewController.m */,
+				E303F2861AA3514B007F3217 /* InitialScreenViewController.h */,
+				E303F2871AA3514B007F3217 /* InitialScreenViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		E303F2681AA34F00007F3217 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E303F2691AA34F00007F3217 /* MiBandBattery.h */,
+				E303F26A1AA34F00007F3217 /* MiBandBattery.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E303F26B1AA34F00007F3217 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E303F26C1AA34F00007F3217 /* Images.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E303F26D1AA34F00007F3217 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E303F26E1AA34F00007F3217 /* Info.plist */,
+				E303F26F1AA34F00007F3217 /* main.m */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E303F2701AA34F00007F3217 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				E303F2711AA34F00007F3217 /* BLECommunicator */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		E303F2711AA34F00007F3217 /* BLECommunicator */ = {
+			isa = PBXGroup;
+			children = (
+				E303F2721AA34F00007F3217 /* BluetoothCommunicator.h */,
+				E303F2731AA34F00007F3217 /* BluetoothCommunicator.m */,
+				E303F2741AA34F00007F3217 /* MiBandCommunicator.h */,
+				E303F2751AA34F00007F3217 /* MiBandCommunicator.m */,
+			);
+			path = BLECommunicator;
+			sourceTree = "<group>";
+		};
+		E303F2761AA34F00007F3217 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E303F2771AA34F00007F3217 /* LaunchScreen.xib */,
+				E303F2791AA34F00007F3217 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E38EABDD1A94E240006855FC = {
+			isa = PBXGroup;
+			children = (
+				E38EABE81A94E240006855FC /* MiLift */,
+				E38EABE71A94E240006855FC /* Products */,
+				E38EAC111A94E2AC006855FC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E38EABE71A94E240006855FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E38EABE61A94E240006855FC /* MiLift.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E38EABE81A94E240006855FC /* MiLift */ = {
+			isa = PBXGroup;
+			children = (
+				E303F25F1AA34F00007F3217 /* AppDelegate */,
+				E303F2621AA34F00007F3217 /* Categories */,
+				E303F2651AA34F00007F3217 /* Controllers */,
+				E303F2681AA34F00007F3217 /* Models */,
+				E303F26B1AA34F00007F3217 /* Resources */,
+				E303F26D1AA34F00007F3217 /* Supporting Files */,
+				E303F2701AA34F00007F3217 /* Utilities */,
+				E303F2761AA34F00007F3217 /* Views */,
+			);
+			path = MiLift;
+			sourceTree = "<group>";
+		};
+		E38EAC111A94E2AC006855FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E38EABE51A94E240006855FC /* MiLift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E38EAC091A94E241006855FC /* Build configuration list for PBXNativeTarget "MiLift" */;
+			buildPhases = (
+				E38EABE21A94E240006855FC /* Sources */,
+				E38EABE31A94E240006855FC /* Frameworks */,
+				E38EABE41A94E240006855FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MiLift;
+			productName = MiLift;
+			productReference = E38EABE61A94E240006855FC /* MiLift.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E38EABDE1A94E240006855FC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Dimitar Topalov";
+				TargetAttributes = {
+					E38EABE51A94E240006855FC = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = E38EABE11A94E240006855FC /* Build configuration list for PBXProject "MiLift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E38EABDD1A94E240006855FC;
+			productRefGroup = E38EABE71A94E240006855FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E38EABE51A94E240006855FC /* MiLift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E38EABE41A94E240006855FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E303F28F1AA3682C007F3217 /* LaunchScreen.xib in Resources */,
+				E303F2901AA3682C007F3217 /* Main.storyboard in Resources */,
+				E303F28E1AA35512007F3217 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E38EABE21A94E240006855FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E303F2811AA34F00007F3217 /* main.m in Sources */,
+				E303F2881AA3514B007F3217 /* InitialScreenViewController.m in Sources */,
+				E303F2821AA34F00007F3217 /* BluetoothCommunicator.m in Sources */,
+				E303F2831AA34F00007F3217 /* MiBandCommunicator.m in Sources */,
+				E303F27E1AA34F00007F3217 /* MiBandBattery.m in Sources */,
+				E303F27D1AA34F00007F3217 /* ViewController.m in Sources */,
+				E303F27C1AA34F00007F3217 /* NSDate+Additions.m in Sources */,
+				E303F27B1AA34F00007F3217 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E303F2771AA34F00007F3217 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E303F2781AA34F00007F3217 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		E303F2791AA34F00007F3217 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E303F27A1AA34F00007F3217 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E38EAC071A94E241006855FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E38EAC081A94E241006855FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E38EAC0A1A94E241006855FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = "$(SRCROOT)/MiLift/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E38EAC0B1A94E241006855FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = "$(SRCROOT)/MiLift/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E38EABE11A94E240006855FC /* Build configuration list for PBXProject "MiLift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E38EAC071A94E241006855FC /* Debug */,
+				E38EAC081A94E241006855FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E38EAC091A94E241006855FC /* Build configuration list for PBXNativeTarget "MiLift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E38EAC0A1A94E241006855FC /* Debug */,
+				E38EAC0B1A94E241006855FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E38EABDE1A94E240006855FC /* Project object */;
+}
